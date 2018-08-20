@@ -1,0 +1,4 @@
+4 AP16BA1211 1970-22-01 05:22:15
+GGGGGNNNNNNNGNGGGG INTO TRANSACTION log
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''log' values('AP16BA1211', 4, intime, outtime )' at line 1
+Vehicle successfully exited
