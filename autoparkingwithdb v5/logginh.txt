@@ -1,0 +1,6 @@
+3 AP16BA1239 2018-25-21 02:25:28
+Hibernate: select vehicle0_.license_number as license_1_0_0_, vehicle0_.slot_number as slot_num2_0_0_, vehicle0_.intime as intime3_0_0_ from transaction vehicle0_ where vehicle0_.license_number=?
+Hibernate: delete from transaction where license_number=?
+Vehicle successfully exited
+Hibernate: select vehicle0_.license_number as license_1_0_, vehicle0_.slot_number as slot_num2_0_, vehicle0_.intime as intime3_0_ from transaction vehicle0_
+Hibernate: select vehicle0_.license_number as license_1_0_, vehicle0_.slot_number as slot_num2_0_, vehicle0_.intime as intime3_0_ from transaction vehicle0_

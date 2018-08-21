@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.autoparkingwithdb.services.Vehicle" table="transaction">
+        <id name="licenseNumber" type="java.lang.String">
+            <column name="license_number" />
+        </id>
+        <property name="slotNumber" type="java.lang.Integer">
+            <column name="slot_number" />
+        </property>
+
+        <property name="inTime" type="timestamp">
+        	<column name="intime" />
+        </property>
+    </class>
+</hibernate-mapping>
