@@ -1,0 +1,43 @@
+<!-- webapp/WEB-INF/web.xml -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+
+    <display-name>Admin login</display-name>
+
+    <welcome-file-list>
+        <welcome-file>adminLogin</welcome-file>
+    </welcome-file-list>
+    
+	<servlet>
+	      <servlet-name>park</servlet-name>
+	      <jsp-file>/parkPage.jsp</jsp-file>
+	 </servlet>
+	 
+	 <servlet-mapping>
+	      <servlet-name>park</servlet-name>
+	      <url-pattern>/parkPage</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+	      <servlet-name>unpark</servlet-name>
+	      <jsp-file>/unParkPage.jsp</jsp-file>
+	 </servlet>
+	 
+	 <servlet-mapping>
+	      <servlet-name>unpark</servlet-name>
+	      <url-pattern>/unParkPage</url-pattern>
+	 </servlet-mapping>
+	 
+	 	 <servlet>
+	      <servlet-name>getdetails</servlet-name>
+	      <jsp-file>/getDetails.jsp</jsp-file>
+	 </servlet>
+	 
+	 <servlet-mapping>
+	      <servlet-name>getdetails</servlet-name>
+	      <url-pattern>/getDetails</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+</web-app>
